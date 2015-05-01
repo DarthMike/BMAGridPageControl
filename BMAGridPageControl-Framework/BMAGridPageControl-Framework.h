@@ -15,5 +15,5 @@ FOUNDATION_EXPORT double BMAGridPageControl_FrameworkVersionNumber;
 FOUNDATION_EXPORT const unsigned char BMAGridPageControl_FrameworkVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <BMAGridPageControl_Framework/PublicHeader.h>
-
+#import <BMAGridPageControl/BMAGridPageControl.h>
 
