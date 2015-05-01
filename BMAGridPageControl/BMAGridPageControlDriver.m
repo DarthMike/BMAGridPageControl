@@ -23,6 +23,7 @@
  */
 
 #import "BMAGridPageControlDriver.h"
+#import "BMAGridPageControl.h"
 
 static const NSUInteger BMAGridPageControlDriverItemsInOneRow = 2;
 static const NSUInteger BMAGridPageControlDriverItemsInOnePage = 4;

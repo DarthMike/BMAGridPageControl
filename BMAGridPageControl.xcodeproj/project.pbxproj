@@ -11,7 +11,6 @@
 		475F85C51AF3822D000AD30D /* BMAGridPageControl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 475F85BA1AF3822C000AD30D /* BMAGridPageControl.framework */; };
 		475F85D71AF382A3000AD30D /* BMAGridPageControl.h in Sources */ = {isa = PBXBuildFile; fileRef = 47CC1A051940B7A600D20D8D /* BMAGridPageControl.h */; };
 		475F85D81AF382A3000AD30D /* BMAGridPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 47CC1A071940B7A600D20D8D /* BMAGridPageControl.m */; };
-		475F85D91AF382A3000AD30D /* BMAGridPageControl_Private.h in Sources */ = {isa = PBXBuildFile; fileRef = 47CC1A281940B95600D20D8D /* BMAGridPageControl_Private.h */; };
 		475F85DA1AF382A3000AD30D /* BMAGridPageControlDriver.h in Sources */ = {isa = PBXBuildFile; fileRef = 47CC1A291940B95600D20D8D /* BMAGridPageControlDriver.h */; };
 		475F85DB1AF382A3000AD30D /* BMAGridPageControlDriver.m in Sources */ = {isa = PBXBuildFile; fileRef = 47CC1A2A1940B95600D20D8D /* BMAGridPageControlDriver.m */; };
 		475F85DC1AF38386000AD30D /* BMAGridPageControlDriverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47CC1A261940B94800D20D8D /* BMAGridPageControlDriverTests.m */; };
@@ -82,7 +81,6 @@
 		47CC1A1A1940B7A600D20D8D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		47CC1A1C1940B7A600D20D8D /* BMAGridPageControlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMAGridPageControlTests.m; sourceTree = "<group>"; };
 		47CC1A261940B94800D20D8D /* BMAGridPageControlDriverTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMAGridPageControlDriverTests.m; sourceTree = "<group>"; };
-		47CC1A281940B95600D20D8D /* BMAGridPageControl_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMAGridPageControl_Private.h; sourceTree = "<group>"; };
 		47CC1A291940B95600D20D8D /* BMAGridPageControlDriver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMAGridPageControlDriver.h; sourceTree = "<group>"; };
 		47CC1A2A1940B95600D20D8D /* BMAGridPageControlDriver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMAGridPageControlDriver.m; sourceTree = "<group>"; };
 		5ED514FBAAE803400FB5C689 /* Pods-BMAGridPageControl-FrameworkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BMAGridPageControl-FrameworkTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BMAGridPageControl-FrameworkTests/Pods-BMAGridPageControl-FrameworkTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -211,7 +209,6 @@
 			children = (
 				47CC1A051940B7A600D20D8D /* BMAGridPageControl.h */,
 				47CC1A071940B7A600D20D8D /* BMAGridPageControl.m */,
-				47CC1A281940B95600D20D8D /* BMAGridPageControl_Private.h */,
 				47CC1A291940B95600D20D8D /* BMAGridPageControlDriver.h */,
 				47CC1A2A1940B95600D20D8D /* BMAGridPageControlDriver.m */,
 				47CC1A031940B7A600D20D8D /* Supporting Files */,
@@ -483,7 +480,6 @@
 			files = (
 				475F85D71AF382A3000AD30D /* BMAGridPageControl.h in Sources */,
 				475F85D81AF382A3000AD30D /* BMAGridPageControl.m in Sources */,
-				475F85D91AF382A3000AD30D /* BMAGridPageControl_Private.h in Sources */,
 				475F85DA1AF382A3000AD30D /* BMAGridPageControlDriver.h in Sources */,
 				475F85DB1AF382A3000AD30D /* BMAGridPageControlDriver.m in Sources */,
 			);
